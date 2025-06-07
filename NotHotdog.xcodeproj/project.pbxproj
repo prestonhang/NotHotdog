@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DBC4FE1C2DF2A184002DCAE3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DBC4FE1B2DF2A184002DCAE3 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DB40F2942DF2994000C31AE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		DB40F2822DF2993F00C31AE4 /* NotHotdog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotHotdog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB40F2932DF2994000C31AE4 /* NotHotdogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotHotdogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB40F29D2DF2994000C31AE4 /* NotHotdogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotHotdogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC4FE1B2DF2A184002DCAE3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		DB40F2792DF2993F00C31AE4 = {
 			isa = PBXGroup;
 			children = (
+				DBC4FE1B2DF2A184002DCAE3 /* README.md */,
 				DB40F2842DF2993F00C31AE4 /* NotHotdog */,
 				DB40F2962DF2994000C31AE4 /* NotHotdogTests */,
 				DB40F2A02DF2994000C31AE4 /* NotHotdogUITests */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC4FE1C2DF2A184002DCAE3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
