@@ -1,32 +1,27 @@
-//
-//  NotHotdogApp.swift
-//  NotHotdog
-//
-//  Created by Preston Hang on 6/5/25.
-//
-
 import SwiftUI
-import SwiftData
 
 @main
-struct NotHotdogApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
+struct NotHotdogApp : App
+{
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                CameraView()
+                    .tabItem {
+                        Image(systemName: "camera")
+                        Text("Analyze")
+                    }
+                HistoryView()
+                    .tabItem {
+                        Image(systemName: "list.bullet")
+                        Text("History")
+                    }
+                SettingsView()
+                    .tabItem {
+                        Image(systemName: "gear")
+                        Text("Settings")
+                    }
+            }
         }
-        .modelContainer(sharedModelContainer)
     }
 }

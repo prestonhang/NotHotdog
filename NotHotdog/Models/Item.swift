@@ -1,10 +1,3 @@
-//
-//  Item.swift
-//  NotHotdog
-//
-//  Created by Preston Hang on 6/5/25.
-//
-
 import Foundation
 import SwiftData
 
