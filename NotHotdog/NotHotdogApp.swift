@@ -6,7 +6,7 @@ struct NotHotdogApp : App
     var body: some Scene {
         WindowGroup {
             TabView {
-                CameraView()
+                AnalyzePhotoView()
                     .tabItem {
                         Image(systemName: "camera")
                         Text("Analyze")
