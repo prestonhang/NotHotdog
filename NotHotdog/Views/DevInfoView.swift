@@ -4,16 +4,11 @@ struct DevInfoView: View
 {
     var body: some View
     {
-        NavigationView
-        {
-            Form
-            {
-                Section(header: Text("Developer Info"))
-                {
-                    ScrollView
-                    {
-                        VStack(alignment: .leading, spacing: 16)
-                        {
+        NavigationView{
+            Form {
+                Section(header: Text("Developer Info")){
+                    ScrollView {
+                        VStack(alignment: .leading, spacing: 16) {
                             Text("HangSoftware").font(.title2).bold()
                             Text(
                             """
@@ -29,17 +24,13 @@ struct DevInfoView: View
                     }
                 }
                 
-                Section(header: Text("Contact Me"))
-                {
-                    Link(destination: URL(string:"prestontanhang@gmail.com")!)
-                    {
+                Section(header: Text("Contact Me")){
+                    Link(destination: URL(string:"prestontanhang@gmail.com")!){
                         Label("prestontanhang@gmail.com", systemImage: "envelope")
                     }
                     .buttonStyle(EmailButtonStyle())
-                    Link(destination: URL(string:"https://www.linkedin.com/in/prestonhang/")!)
-                    {
-                        HStack
-                        {
+                    Link(destination: URL(string:"https://www.linkedin.com/in/prestonhang/")!) {
+                        HStack {
                             Image(.linkedin)
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
@@ -49,8 +40,7 @@ struct DevInfoView: View
                     }
                     .buttonStyle(LinkedInButtonStyle())
                     
-                    Link(destination: URL(string:"https://github.com/prestonhang")!)
-                    {
+                    Link(destination: URL(string:"https://github.com/prestonhang")!){
                         HStack
                         {
                             Image(.github)
