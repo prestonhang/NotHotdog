@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB85239D2EED586C00E82590 /* NotHotdogImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DB85239C2EED586C00E82590 /* NotHotdogImageClassifier.mlmodel */; };
 		DBC4FE1C2DF2A184002DCAE3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DBC4FE1B2DF2A184002DCAE3 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		DB40F2822DF2993F00C31AE4 /* NotHotdog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotHotdog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB40F2932DF2994000C31AE4 /* NotHotdogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotHotdogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB40F29D2DF2994000C31AE4 /* NotHotdogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotHotdogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB85239C2EED586C00E82590 /* NotHotdogImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = NotHotdogImageClassifier.mlmodel; sourceTree = "<group>"; };
 		DBC4FE1B2DF2A184002DCAE3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,8 @@
 		DB40F2792DF2993F00C31AE4 = {
 			isa = PBXGroup;
 			children = (
+				DB85239C2EED586C00E82590 /* NotHotdogImageClassifier.mlmodel */,
+				DB8523992EED4AB200E82590 /* TrainingData */,
 				DBC4FE1B2DF2A184002DCAE3 /* README.md */,
 				DB40F2842DF2993F00C31AE4 /* NotHotdog */,
 				DB40F2962DF2994000C31AE4 /* NotHotdogTests */,
@@ -109,6 +113,13 @@
 				DB40F29D2DF2994000C31AE4 /* NotHotdogUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DB8523992EED4AB200E82590 /* TrainingData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TrainingData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB85239D2EED586C00E82590 /* NotHotdogImageClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,14 +307,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NotHotdog/NotHotdog.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6PBP6F3946;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotHotdog/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = NotHotdog;
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +329,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hangsoftware.NotHotdog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,14 +342,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NotHotdog/NotHotdog.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6PBP6F3946;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotHotdog/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = NotHotdog;
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -349,6 +364,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hangsoftware.NotHotdog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

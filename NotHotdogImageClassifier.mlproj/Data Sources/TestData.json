@@ -1,0 +1,137 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2025-12-13T07:47:15Z",
+        "event" : "dataSourceCreated",
+        "id" : "780720E3-ECCB-4943-8A99-CA6C1ED5CAB1",
+        "subtitle" : "TestData",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2025-12-13T07:47:15Z",
+  "dataPathRelativeToProjectURL" : "../TestData/",
+  "dataResult" : {
+    "classesCount" : 2,
+    "createdDate" : "2025-12-13T07:47:15Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+        "details" : [
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Not%20a%20Hotdog/download-1.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Hotdog/images.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Not%20a%20Hotdog/One-Pot-Creamy-Cajun-Sausage-Pasta-10.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Not%20a%20Hotdog/IMG_9648.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Not%20a%20Hotdog/download.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Hotdog/intro-1664378682.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Hotdog/IMG_9755.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Not%20a%20Hotdog/IMG_9619.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Not%20a%20Hotdog/IMG_9637.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Not%20a%20Hotdog/IMG_8537.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Hotdog/cocktail-chatter-costco-hotdog-social.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Not%20a%20Hotdog/IMG_9361.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Not%20a%20Hotdog/IMG_9360.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Hotdog/hotdog4.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Not%20a%20Hotdog/IMG_9757.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/Not%20a%20Hotdog/IMG_9756.jpg",
+          [
+            "Not a Hotdog"
+          ]
+        ],
+        "labelStats" : {
+          "Hotdog" : 5,
+          "Not a Hotdog" : 11
+        }
+      },
+      "issues" : [
+        {
+          "description" : "2 classes found, including Not a Hotdog, Hotdog",
+          "severity" : "debug"
+        },
+        {
+          "description" : "Less than 50 total images found - add more to improve model validation",
+          "severity" : "warning"
+        },
+        {
+          "description" : "Smallest class is \"Hotdog\" with 5 images",
+          "severity" : "debug"
+        },
+        {
+          "description" : "Largest class is \"Not a Hotdog\" with 11 images",
+          "severity" : "debug"
+        }
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+        "canUseValidation" : 0,
+        "classCount" : 2,
+        "sampleCount" : 16
+      }
+    },
+    "dataSourceID" : "F581AFE2-E8AF-49FC-A721-91040080A435",
+    "dataURL" : "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/",
+    "itemsCount" : 16
+  },
+  "dataURL" : "file:///Users/prestonhang/Documents/Projects/NotHotdog/TestData/",
+  "experimentIDs" : [
+    "87BB24B5-A22E-47D0-A49D-513BC53CE556",
+    "4B115815-E4C8-4829-84AB-2AE42A64392C",
+    "9BF5A82D-9300-4FF3-B264-3BE67B932F35"
+  ],
+  "id" : "F581AFE2-E8AF-49FC-A721-91040080A435",
+  "modifiedDate" : "2025-12-13T08:01:41Z",
+  "pathType" : 0,
+  "preferredFilename" : "TestData",
+  "title" : "TestData",
+  "version" : "1.0"
+}

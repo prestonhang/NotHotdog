@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2025-12-13T07:17:20Z",
+        "event" : "projectCreated",
+        "id" : "9F817F61-62D8-4A55-8013-47C92B46B135",
+        "subtitle" : "NotHotdogImageClassifier",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Preston Hang",
+  "createdDate" : "2025-12-13T07:17:20Z",
+  "description" : "",
+  "id" : "33E348A7-69F7-4E72-81FB-A4B320D9BD54",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2025-12-13T07:17:20Z",
+  "projectName" : "NotHotdogImageClassifier",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "imageClassifier",
+  "title" : "Image Classification",
+  "version" : "1.1"
+}

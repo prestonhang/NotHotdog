@@ -1,0 +1,291 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2025-12-13T07:25:25Z",
+        "event" : "dataSourceCreated",
+        "id" : "35916A9B-1FB6-4F86-BD9B-87505781C856",
+        "subtitle" : "TrainingData",
+        "title" : "Data Source Created"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2025-12-13T07:35:21Z",
+        "event" : "dataSourceMetrics",
+        "id" : "015BF171-9297-4F5D-9B11-0F055D4B7CDD",
+        "subtitle" : "2 Classes, 15 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2025-12-13T07:44:42Z",
+        "event" : "dataSourceMetrics",
+        "id" : "E1296935-764D-40E0-A3A0-85CDCA0BAD92",
+        "subtitle" : "2 Classes, 21 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2025-12-13T07:53:45Z",
+        "event" : "dataSourceMetrics",
+        "id" : "02D4B265-E38F-432B-BD5F-93C1AB7DFD38",
+        "subtitle" : "2 Classes, 32 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2025-12-13T08:01:53Z",
+        "event" : "dataSourceMetrics",
+        "id" : "B918B38F-BF1A-403A-BC03-301BB8ACA833",
+        "subtitle" : "2 Classes, 39 Items",
+        "title" : "Data Summary"
+      }
+    ],
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2025-12-13T07:35:21Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "96D0F191-3304-4BF2-8B23-A315541CEDBA",
+        "subtitle" : "NotHotdogImageClassifier 1",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2025-12-13T07:44:42Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "83F74022-B24D-4A5D-A7F6-683AB5F93373",
+        "subtitle" : "NotHotdogImageClassifier 1",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2025-12-13T07:53:45Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "F474AD80-0097-45CD-8DD6-506D6827BD4B",
+        "subtitle" : "NotHotdogImageClassifier 2",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2025-12-13T08:01:53Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "EF88FEC8-37C5-4FEC-B1D2-8EADC0843C4A",
+        "subtitle" : "NotHotdogImageClassifier 3",
+        "title" : "Used By"
+      }
+    ]
+  ],
+  "createdDate" : "2025-12-13T07:25:25Z",
+  "dataPathRelativeToProjectURL" : "../TrainingData/",
+  "dataResult" : {
+    "classesCount" : 2,
+    "createdDate" : "2025-12-13T07:25:25Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+        "details" : [
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_9619.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/download-7.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_9754.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_8537.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_9573.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_9360.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Hotdog/images.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_9361.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Hotdog/images-3.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/images-2.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Hotdog/images-4.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Hotdog/images-2.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/download-4.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_9756.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Hotdog/hotdog5.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/download-2.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_9757.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/download-5.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_9386.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_9752.png",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_9389.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/images-1.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/download-6.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/download-3.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_9637.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Hotdog/hotdog4.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Hotdog/hotdog2.webp",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/download-1.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Hotdog/download.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Hotdog/images-5.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_9753.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Hotdog/hotdog.jpeg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_9648.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/download.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/IMG_8522.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Hotdog/hotdog3.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Hotdog/images-1.jpg",
+          [
+            "Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Not%20a%20Hotdog/images.jpg",
+          [
+            "Not a Hotdog"
+          ],
+          "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/Hotdog/IMG_9755.jpg",
+          [
+            "Hotdog"
+          ]
+        ],
+        "labelStats" : {
+          "Hotdog" : 13,
+          "Not a Hotdog" : 26
+        }
+      },
+      "issues" : [
+        {
+          "description" : "2 classes found, including Not a Hotdog, Hotdog",
+          "severity" : "debug"
+        },
+        {
+          "description" : "Less than 50 total images found - add more to improve model validation",
+          "severity" : "warning"
+        },
+        {
+          "description" : "Smallest class is \"Hotdog\" with 13 images",
+          "severity" : "debug"
+        },
+        {
+          "description" : "Largest class is \"Not a Hotdog\" with 26 images",
+          "severity" : "debug"
+        }
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+        "canUseValidation" : 0,
+        "classCount" : 2,
+        "sampleCount" : 39
+      }
+    },
+    "dataSourceID" : "C574355C-A5E0-412B-ABEF-636738A41A28",
+    "dataURL" : "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/",
+    "itemsCount" : 39
+  },
+  "dataURL" : "file:///Users/prestonhang/Documents/Projects/NotHotdog/TrainingData/",
+  "experimentIDs" : [
+    "87BB24B5-A22E-47D0-A49D-513BC53CE556",
+    "4B115815-E4C8-4829-84AB-2AE42A64392C",
+    "9BF5A82D-9300-4FF3-B264-3BE67B932F35"
+  ],
+  "id" : "C574355C-A5E0-412B-ABEF-636738A41A28",
+  "modifiedDate" : "2025-12-13T08:01:53Z",
+  "pathType" : 0,
+  "preferredFilename" : "TrainingData",
+  "title" : "TrainingData",
+  "version" : "1.0"
+}

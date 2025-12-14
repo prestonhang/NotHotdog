@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CameraCoordinator: NSObject, UIImagePickerControllerDelegate,
+final class CameraCoordinator: NSObject, UIImagePickerControllerDelegate,
                    UINavigationControllerDelegate {
     var parent: CameraView
     
