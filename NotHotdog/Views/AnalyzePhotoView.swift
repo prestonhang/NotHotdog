@@ -11,8 +11,9 @@ import PhotosUI
 struct AnalyzePhotoView: View {
     @State private var selectedItem: PhotosPickerItem?
     @State private var selectedPhoto: UIImage?
-    @State private var showCamera: Bool = false
-    @State private var isHotdog: Bool = false
+    @State private var showCamera = false
+    @State private var isHotdog = ""
+    @EnvironmentObject var sharedViewModel: HistoryViewModel
     
     var body: some View {
         VStack  {
@@ -22,18 +23,30 @@ struct AnalyzePhotoView: View {
                     .scaledToFit()
                     .frame(width: 300, height: 300)
                     .cornerRadius(20)
-                Button(action: { isHotdog = AnalyzeImage(UIImage: )(selectedPhoto: selectedPhoto)}) {
-                    if isHotdog {
-                        Text("It's a Hotdog!")
-                    } else {
-                        Text("It's not a Hotdog...")
-                    }
+                
+                if isHotdog != "" {
+                    Text(isHotdog)
+                }
+                
+                Button(action: {
+                    beginAnalysis()
+                    }) {
+                    Text("Analyze Selected Photo")
+                        .font(.headline)
+                        .padding(20)
+                        .frame(maxWidth: 300)
+                        .background(Color.green)
+                        .foregroundColor(.white)
+                        .cornerRadius(50)
                 }
             } else {
                 Text("No photo selected")
             }
-            
-            Button(action: { showCamera = true}) {
+                        
+            Button(action: {
+                showCamera = true
+                isHotdog = ""
+            }) {
                 Text("Open Camera")
                     .font(.headline)
                     .padding(20)
@@ -57,6 +70,7 @@ struct AnalyzePhotoView: View {
             }
             .onChange(of: selectedItem) { _, item in
                 if let item = item {
+                    isHotdog = ""
                     Task {
                         if let data = try? await item.loadTransferable(type: Data.self) {
                             selectedPhoto = UIImage(data: data)
@@ -68,6 +82,11 @@ struct AnalyzePhotoView: View {
                 }
             }
         }
+    }
+    func beginAnalysis() {
+        let result = AnalyzeResult(selectedPhoto)
+        isHotdog = result.result!
+        sharedViewModel.createResult(result)
     }
 }
 

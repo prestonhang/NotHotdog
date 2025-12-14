@@ -10,16 +10,16 @@ final class AnalyzeResult {
     var result: String? { get { return _result}}
     
     init(_ photo: UIImage?) {
-        self._timestamp = Date()
+        _timestamp = Date()
+        _result = "Hotdog!"
         
         // Call Model here to determine result
         
-        let imageClassifierWrapper = try? NotHotdogImageClassifier()
+        //let imageClassifierWrapper = try? NotHotdogImageClassifier()
         
-        if let imageToPredict = photo {
-            imageClassifierWrapper?.prediction(imageToPredict)
-            }
-        }
+//        if let imageToPredict = photo {
+//            imageClassifierWrapper?.prediction(imageToPredict)
+//        }
     }
 }
  
