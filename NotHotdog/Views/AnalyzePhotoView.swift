@@ -85,7 +85,7 @@ struct AnalyzePhotoView: View {
     }
     func beginAnalysis() {
         let result = AnalyzeResult(selectedPhoto)
-        isHotdog = result.result!
+        isHotdog = result.result ?? "Failure in analysis"
         sharedViewModel.createResult(result)
     }
 }

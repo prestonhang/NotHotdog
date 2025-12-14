@@ -1,6 +1,7 @@
 import Foundation
 import UIKit
 import SwiftData
+import CoreML
 
 @Model
 final class AnalyzeResult {
@@ -11,15 +12,25 @@ final class AnalyzeResult {
     
     init(_ photo: UIImage?) {
         _timestamp = Date()
-        _result = "Hotdog!"
-        
+
         // Call Model here to determine result
+        let model = try? NotHotdogImageClassifier()
+        guard let image = photo?.resizeImageTo(size: CGSize(width: 224, height: 224)),
+            let buffer = image.convertToBuffer()
+        else {
+            _result = "Image processing error!"
+            return
+        }
+        print("Buffer width: \(CVPixelBufferGetWidth(buffer)) height: \(CVPixelBufferGetHeight(buffer))")
         
-        //let imageClassifierWrapper = try? NotHotdogImageClassifier()
-        
-//        if let imageToPredict = photo {
-//            imageClassifierWrapper?.prediction(imageToPredict)
-//        }
+        let prediction = try? model?.prediction(image: buffer)
+        if prediction?.target == "hotdog" {
+            _result = "Hotdog!"
+        } else if prediction?.target == "not_hotdog" {
+            _result = "Not Hotdog."
+        } else {
+            _result = "Model Failed Prediction!"
+        }
     }
 }
  
