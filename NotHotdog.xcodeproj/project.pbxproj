@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBC06AF62EEFA2CC00E1C039 /* demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = DBC06AF52EEFA2CC00E1C039 /* demo.mov */; };
 		DBC4FE1C2DF2A184002DCAE3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DBC4FE1B2DF2A184002DCAE3 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		DB40F2822DF2993F00C31AE4 /* NotHotdog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotHotdog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB40F2932DF2994000C31AE4 /* NotHotdogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotHotdogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB40F29D2DF2994000C31AE4 /* NotHotdogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotHotdogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC06AF52EEFA2CC00E1C039 /* demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demo.mov; sourceTree = "<group>"; };
 		DBC4FE1B2DF2A184002DCAE3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 			children = (
 				DB8523992EED4AB200E82590 /* TrainingData */,
 				DBC4FE1B2DF2A184002DCAE3 /* README.md */,
+				DBC06AF52EEFA2CC00E1C039 /* demo.mov */,
 				DB40F2842DF2993F00C31AE4 /* NotHotdog */,
 				DB40F2962DF2994000C31AE4 /* NotHotdogTests */,
 				DB40F2A02DF2994000C31AE4 /* NotHotdogUITests */,
@@ -239,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC06AF62EEFA2CC00E1C039 /* demo.mov in Resources */,
 				DBC4FE1C2DF2A184002DCAE3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,13 +310,13 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6B9D85QADP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotHotdog/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed to allow app to take photo and analyze it.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = NotHotdog;
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to photos are required for the app to function.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,13 +345,13 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6B9D85QADP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotHotdog/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed to allow app to take photo and analyze it.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = NotHotdog;
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to photos are required for the app to function.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
