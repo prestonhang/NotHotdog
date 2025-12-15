@@ -20,3 +20,5 @@ My important learnings:
 - Creating an ML model
 
 Enjoy!
+
+YouTube Link: https://www.youtube.com/shorts/9PRPUv6ell0
