@@ -21,6 +21,7 @@ struct NotHotdogApp : App
                         Text("History")
                     }
                 SettingsView()
+                    .environmentObject(historyViewModel)
                     .tabItem {
                         Image(systemName: "gear")
                         Text("Settings")

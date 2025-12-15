@@ -21,7 +21,6 @@ final class AnalyzeResult {
             _result = "Image processing error!"
             return
         }
-        print("Buffer width: \(CVPixelBufferGetWidth(buffer)) height: \(CVPixelBufferGetHeight(buffer))")
         
         let prediction = try? model?.prediction(image: buffer)
         if prediction?.target == "hotdog" {
